@@ -1,15 +1,19 @@
+<div align="center">
+
 # Biological Option
 
-> Bugfixes & Optimizations
-
-[![Release](https://img.shields.io/github/v/release/Solar-Dynamics-Nuclear-Option/Biological-Option?style=flat)](https://github.com/Solar-Dynamics-Nuclear-Option/Biological-Option/releases)
+[![Release](https://img.shields.io/github/v/release/SolarDyn/Biological-Option?style=flat)](https://github.com/SolarDyn/Biological-Option/releases)
 ![Game Version](https://img.shields.io/badge/Nuclear_Option-v0.34.2-green?style=flat)
 ![BepInEx Version](https://img.shields.io/badge/BepInEx-v5.4.23.4-green?style=flat)
+
+</div>
 
 **Biological Option** is built for squashing bugs, optimising performance, and making minor improvements behind the
 scenes. To any screenshot or video clip, the game should *seem* identical to vanilla while running this.
 
-![Preview](https://github.com/Solar-Dynamics-Nuclear-Option/Assets/blob/main/background/cricket.png)
+<div align="center">
+  <img src="https://github.com/SolarDyn/Assets/blob/main/background/ifrit.png" />
+</div>
 
 ## Requirements
 
@@ -27,6 +31,17 @@ scenes. To any screenshot or video clip, the game should *seem* identical to van
 * `WeaponManager`
   * `SalvoFire`
     * Patched laser-guided rockets being salvo-fired at unlased targets.
+* `UnitConverter`
+  * `WeightReading`
+    * Fixed inconsistent conversions.
+    * Reformatted for string-length consistency.
+  * `YieldReading`
+    * Fixed inconsistent conversions.
+    * Reformatted for string-length consistency.
+
+<div align="center">
+  <img src="https://github.com/SolarDyn/Assets/blob/main/background/cricket.png" />
+</div>
 
 ## Installation
 
@@ -39,7 +54,7 @@ scenes. To any screenshot or video clip, the game should *seem* identical to van
 
 1. Install [BepInEx](https://github.com/BepInEx/BepInEx).
 2. Download the latest release from
-   the [Releases](https://github.com/Solar-Dynamics-Nuclear-Option/Template-Project/releases) page.
+   the [Releases](https://github.com/SolarDyn/Template-Project/releases) page.
 1. For normal use, it is recommended to use the standard `<name>-<version>.dll` build.
 2. For debugging, it is recommended to use the `<name>-<version>-Debug.dll` build.
 3. Put the DLL in your plugins folder:
@@ -77,7 +92,7 @@ If you encounter a bug that is not listed here, please open an issue.
 ## Bug Reports
 
 Bug reports should be submitted through
-the [GitHub Issues](https://github.com/Solar-Dynamics-Nuclear-Option/Template-Project/issues) page.
+the [GitHub Issues](https://github.com/SolarDyn/Template-Project/issues) page.
 
 When reporting a problem, include as much of the following relevant information as possible:
 

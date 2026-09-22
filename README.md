@@ -106,16 +106,32 @@ When reporting a problem, include as much of the following relevant information 
 * Steps to reproduce the problem.
 * Other installed mods that may be relevant.
 
-Standard Nuclear Option Log Path:
+### Default Windows Paths
+
+Nuclear Option Log:
 
 ```text
-%HOMEPATH%\AppData\LocalLow\Shockfront\NuclearOption\Player.log
+%LOCALAPPDATA%Low\Shockfront\NuclearOption\Player.log
 ```
 
-Standard BepInEx Log Path:
+BepInEx Log:
 
 ```text
 %PROGRAMFILES(X86)%\Steam\steamapps\common\Nuclear Option\BepInEx\LogOutput.log
+```
+
+### Default GNU/Linux Paths
+
+Nuclear Option Log:
+
+```text
+~/.local/share/Steam/steamapps/compatdata/2168680/pfx/drive_c/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/Player.log
+```
+
+BepInEx Log:
+
+```text
+~/.local/share/Steam/steamapps/common/Nuclear Option/BepInEx/LogOutput.log
 ```
 
 ## Credits
